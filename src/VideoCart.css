@@ -1,0 +1,27 @@
+.videocart{
+    color:white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms ease-out;
+    
+}
+.videocart > img{
+    height: 300px;
+    object-fit: contain;
+    width: 500px;
+}
+
+.videocart:hover{
+    transform: scale(1.09);
+}
+.movie_info{
+    align-items: center;
+    display:none;
+}
+
+.videocart:hover > .movie_info{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
